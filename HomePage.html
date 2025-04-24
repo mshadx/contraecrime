@@ -301,6 +301,14 @@
             color: #000000;
         }
 
+        .dark-theme .fingerprint-icon {
+            filter: brightness(0) invert(1);
+        }
+
+        .dark-theme .fingerprint-icon::before {
+            border-color: #ffffff;
+        }
+
         /* Search Bar */
         .search-container {
             width: 40%;
@@ -355,7 +363,7 @@
 
         .dark-theme .search-input:focus {
             border-color: #d8dbe0;
-            box-shadow: -5px -5px 0px #d8dbe0;
+            box-shadow: -2px -1px 0px #d8dbe0;
         }
 
         .dark-theme .search-icon svg path {
@@ -748,7 +756,7 @@
                 position: absolute;
                 margin-right: 4px;
                 margin-top: 4px;
-                width: 96px;
+                width: 95px;
                 height: 93px;
                 border: 3px solid;
                 border-radius: 50%;
